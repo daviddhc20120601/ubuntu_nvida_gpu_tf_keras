@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 sudo apt-get install build-essential cmake unzip pkg-config -y
 sudo apt-get install libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev -y
 sudo apt-get install libjpeg-dev libpng-dev libtiff-dev -y
