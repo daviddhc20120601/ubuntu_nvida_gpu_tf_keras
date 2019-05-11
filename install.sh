@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get upgrade -y
+#sudo apt-get upgrade -y
 sudo apt-get install build-essential cmake unzip pkg-config -y
 sudo apt-get install libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev -y
 sudo apt-get install libjpeg-dev libpng-dev libtiff-dev -y
@@ -12,4 +12,8 @@ sudo apt-get install python3-dev python3-tk python-imaging-tk -y
 
 sudo apt-get install gcc-6 g++-6 -y
 
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+
+sudo apt install nvidia-driver-430 -y
 
